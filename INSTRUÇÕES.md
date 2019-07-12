@@ -1,6 +1,6 @@
 # Kart Racing Challenge
 
-> Repositório com a solução do desafio da corrida de Kart, que está descrito no [README.md](https://github.com/pedrox-hs/kart-racing-challenge/README.md).
+> Repositório com a solução do desafio da corrida de Kart, que está descrito no [README.md](https://github.com/pedrox-hs/kart-racing-challenge/blob/master/README.md).
 
 ## Requisitos
 * Python >= 3.4 (_opcional se possuir o Docker_)
