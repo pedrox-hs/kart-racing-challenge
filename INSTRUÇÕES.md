@@ -12,7 +12,6 @@ _Foi testando apenas usando sistema operacional Linux_
 ### Clone
 
 - Clone esse repositório para sua máquina local usando `https://github.com/pedrox-hs/kart-racing-challenge.git`
-- Acesse o diretório raíz do repositório `cd kart-racing-challenge`
 
 ## Utilização
 
