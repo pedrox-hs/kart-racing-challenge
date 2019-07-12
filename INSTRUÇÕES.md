@@ -27,7 +27,7 @@ com Docker:
 
 `$ docker run -v $(pwd):/app -w /app --rm python:3-alpine python3 -m py3.src.read_log logs/kart-racing.log`
 
-[![asciicast](https://asciinema.org/a/257122.png)](https://asciinema.org/a/257122)
+[![asciicast demo](https://raw.githubusercontent.com/pedrox-hs/kart-racing-challenge/master/demo/demo.gif)](https://asciinema.org/a/257122)
 
 
 ### Utilizando a entrada padrão (stdin)
@@ -38,7 +38,7 @@ com Docker:
 
 `cat logs/kart-racing.log | docker run -v $(pwd):/app -w /app --rm -i python:3-alpine python3 -m py3.src.read_log`
 
-[![asciicast](https://asciinema.org/a/257124.png)](https://asciinema.org/a/257124)
+[![asciicast demo stdin](https://raw.githubusercontent.com/pedrox-hs/kart-racing-challenge/master/demo/stdin.gif)](https://asciinema.org/a/257124)
 
 
 ## Testes
@@ -51,4 +51,4 @@ com Docker:
 
 `$ docker run -v $(pwd):/app -w /app --rm -i python:3-alpine python3 -m py3.tests.read_log_test`
 
-[![asciicast](https://asciinema.org/a/257129.png)](https://asciinema.org/a/257129)
+[![asciicast testing demo](https://raw.githubusercontent.com/pedrox-hs/kart-racing-challenge/master/demo/testing.gif)](https://asciinema.org/a/257129)
