@@ -36,7 +36,7 @@ com Docker:
 
 com Docker:
 
-`cat logs/kart-racing.log | docker run -v $(pwd):/app -w /app --rm -i python:3-alpine python3 -m py3.src.read_log`
+`$ cat logs/kart-racing.log | docker run -v $(pwd):/app -w /app --rm -i python:3-alpine python3 -m py3.src.read_log`
 
 [![asciicast demo stdin](https://raw.githubusercontent.com/pedrox-hs/kart-racing-challenge/master/demo/stdin.gif)](https://asciinema.org/a/257124)
 
