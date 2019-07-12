@@ -67,4 +67,4 @@ SOLUÇÃO
 ENTREGA
 =======
 * **Não** faça um fork desse projeto. Crie um repositório no seu perfil do GitHub e nos envie a url;
-* Crie um arquivo SUAS-INSTRUÇÕES.txt para adicionar algum comentário/observação que achar importante;
+* Crie um arquivo [INSTRUÇÕES.md](https://github.com/pedrox-hs/kart-racing-challenge/INSTRUÇÕES.md) para adicionar algum comentário/observação que achar importante;
