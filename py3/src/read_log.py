@@ -8,8 +8,8 @@ from itertools import groupby
 from os import path
 from traceback import print_exception
 
-from src.py3.lib.models import Pilot, Lap, PilotLaps
-from src.py3.lib.exceptions import IncorrectUsageException, InvalidFormatException
+from py3.src.lib.models import Pilot, Lap, PilotLaps
+from py3.src.lib.exceptions import IncorrectUsageException, InvalidFormatException
 
 
 def main():

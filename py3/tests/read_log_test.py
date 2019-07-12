@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-from src.py3.read_log import get_log_content, parse_laps, group_laps_by_pilot, print_pilot_laps, Pilot, Lap, PilotLaps
+from py3.src.read_log import get_log_content, parse_laps, group_laps_by_pilot, print_pilot_laps, Pilot, Lap, PilotLaps
 
 from datetime import timedelta, datetime
 from tempfile import NamedTemporaryFile
