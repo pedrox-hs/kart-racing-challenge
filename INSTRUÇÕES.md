@@ -13,6 +13,10 @@ _Foi testando apenas usando sistema operacional Linux_
 
 - Clone esse repositório para sua máquina local usando `https://github.com/pedrox-hs/kart-racing-challenge.git`
 
+### Online
+
+Se preferir é possível ver o resultado pelo link [https://www.onlinegdb.com/HkJusUIZH](https://www.onlinegdb.com/HkJusUIZH)
+
 ## Utilização
 
 Acesse o diretório raíz do repositório
