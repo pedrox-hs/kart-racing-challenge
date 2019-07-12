@@ -6,7 +6,6 @@ import sys
 from datetime import datetime, timedelta
 from itertools import groupby
 from os import path
-from traceback import print_exception
 
 from py3.src.lib.models import Pilot, Lap, PilotLaps
 from py3.src.lib.exceptions import IncorrectUsageException, InvalidFormatException
@@ -20,10 +19,6 @@ def main():
         print_pilot_laps(pilot_laps)
     except IncorrectUsageException as e:
         print(e)
-    except Exception:
-        exc_info = sys.exc_info()
-        print_exception(*exc_info)
-        del exc_info
 
 
 def get_log_content():
